@@ -169,6 +169,7 @@ color: #fff;
 .video-description h3 {
   font-size: 35px;
   margin-bottom: 20px;
+  text-align: start;
 }
 
 .video-description p {
@@ -329,7 +330,7 @@ color: #fff;
 
   .video-description {
     margin: 20px auto 0 auto;
-    text-align:center;
+    text-align:start;
   }
 
   .selo-compra img{
