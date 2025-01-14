@@ -79,7 +79,7 @@ img {
     rgba(0, 0, 0, 0.7),
     rgba(214, 17, 17, 0.7)
   ),
-  url("/public/fundo-hero.png") no-repeat center center;
+  url("/fundo-hero.png") no-repeat center center;
 background-size: cover;
 color: #fff;
 }
