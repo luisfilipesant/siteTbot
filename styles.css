@@ -180,16 +180,18 @@ color: #fff;
    TESTIMONIALS
 ----------- */
 .testimonials-section {
+  display: grid;
   padding: 60px 20px;
   text-align: center;
   background-color:  #6842f5;
-  color: rgb(0, 0, 0);
 }
 
 .testimonials-section img{
-  border-radius: 50%;
-  width: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25rem;
   margin: 0 auto;
+  gap: 1rem;
 }
 
 .testimonials-section h2 {
@@ -198,32 +200,21 @@ color: #fff;
   color: #fff;
 }
 
-.testimonials-cards {
+.testimonials-cards{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10rem;
   justify-content: center;
 }
 
 .testimonial-card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
   width: 300px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   animation: fadeInUp 1s ease forwards;
   opacity: 0;
 }
 
-.testimonial-card p {
-  font-style: italic;
-  margin-bottom: 15px;
-}
 
-.testimonial-card h4 {
-  font-weight: bold;
-  color: #6842f5;
-}
 
 @keyframes fadeInUp {
   0% {
@@ -335,5 +326,32 @@ color: #fff;
 
   .selo-compra img{
     width: 150px;
+
+  }
+
+  .cta-content .buy-btn{
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  .cta-content p {
+    font-size: 15px;
+    text-align: center;
+    width: 95%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cta-content h2{
+    padding: 0;
+    margin-right: 10px;
+
+  }
+
+  .testimonial-card img{
+    margin-left: 8%;
+    align-items: center;
+    justify-content: center;
+
   }
 }
